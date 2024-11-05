@@ -1,4 +1,3 @@
-    # Homework title
 
 ## About
 MY CV
