@@ -10,6 +10,7 @@
     background-image: url(./foto/Contact\ Form.svg);
 }
 
+@media screen and (min-width: 670px) {
 .h1 {
     font-size: 81px;
 
@@ -41,6 +42,7 @@
     -moz-border-radius: 5%;
     border-radius: 3%;
     box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    margin-bottom: 60px;
 }
 
 .form_item {
@@ -152,4 +154,134 @@ textarea {
 .back {
    margin-left: 20px;
    margin-top: 20px;
+}
+}
+@media screen and (max-width: 670px) {
+   .h1 {
+    text-align: center;
+    background: linear-gradient(45deg, white 50%, #763AF5 60%, #A604F2 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+    font-family: inter;
+    margin-top: 67px;
+   }
+   .form_wrapper {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 350px;
+    height: 480px;
+    background: rgba(20, 20, 35, 0.449);
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 3%;
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    margin-bottom: 60px;
+}
+.form_title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    font-family: inter;
+    margin-bottom: 8px;
+}
+
+.info {
+    color: white;
+    font-size: 12px;
+    font-family: inter;
+}
+
+.form_inputs {
+    margin-left: 28px;
+}
+
+.inp1 {
+    color: white;
+    width: 140px;
+    height: 42px;
+    margin-bottom: 14px;
+    background: rgba(20, 20, 35);
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 5px;
+}
+.inp1:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.inp2:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+textarea:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.button:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+
+}
+.inp2 {
+    color: white;
+    width: 294px;
+    height: 42px;
+    margin-bottom: 14px;
+    background: rgba(20, 20, 35);
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 5px;
+}
+
+.inp3 {
+    color: white;
+    width: 294px;
+    height: 109px;
+    margin-bottom: 14px;
+    background: rgba(20, 20, 35);
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 5px;
+}
+::placeholder {
+    color: rgb(96, 96, 96);
+    padding-left: 14px;
+    font-size: 15px;
+    font-family: inter;
+}
+
+textarea {
+    color: white;
+    width: 294px;
+    height: 109px;
+    max-width: 426px;
+    max-height: 140px;
+    margin-bottom: 14px;
+    background: rgba(20, 20, 35);
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 5px;
+}
+
+.button {
+    font-size: 15px;
+    font-family: inter;
+    color: white;
+    width: 294px;
+    height: 42px;
+    background: linear-gradient(45deg, #763AF5 20%, #A604F2 80%);
+    border: 0;
+}
+.back {
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
 }
