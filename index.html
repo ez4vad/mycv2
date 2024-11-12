@@ -13,7 +13,11 @@
     />
   </head>
   <body>
-    <aside>
+
+    <button id="toggleButton" class="b1">Open menu</button>
+
+    <aside id="sidePanel" class="aside-hidden open">
+        <button id="closeButton">Close</button>
       <div class="logo_wrapper">
         <div class="logo">
           <img src="./foto/170575102.jpeg" alt="" class="foto" />
@@ -126,19 +130,19 @@
         <div class="main_content">
             <div class="container2">
                 <p class="upper_main">Latest projects</p>
-                <a href="https://ez4vad.github.io/first-project/" target="_blank"><img src="./foto/p1.svg" alt="" style="width: 429px; border-radius: 10px;"></a>
+                <a href="https://ez4vad.github.io/first-project/" target="_blank"><img src="./foto/p1.svg" alt="" class="bhor"></a>
                 <div class="info_wrapper">
                 <a href="https://ez4vad.github.io/first-project/" target="_blank"><p class="text_h1">Bhromaon</p></a>
                 <a href=""><p class="text_h2">HTML CSS</p></a>
                 <a href="https://ez4vad.github.io/first-project/" target="_blank"><p class="text_link">https://ez4vad.github.io/first-project/</p></a>
             </div>
             </div>
-            <div class="container2" style="margin-left: 40px;">
-                <a href="" target="_blank"><img src="./foto/p2.png" alt="" style="width: 430px; border-radius: 10px;"></a>
+            <div class="container2 qqs">
+                <a href="https://ez4vad.github.io/hmmh/" target="_blank"><img src="./foto/c2.png" alt="" class="bhor" style="height: 241px;"></a>
                 <div class="info_wrapper">
-                <a href="" target="_blank"><p class="text_h1">Pokedex</p></a>
-                <a href=""><p class="text_h2">PokeApi + React</p></a>
-                <a href="" target="_blank"><p class="text_link">https://github.com/ez4vad/pokemon</p></a>
+                <a href="https://ez4vad.github.io/hmmh/" target="_blank"><p class="text_h1">Fuzzy</p></a>
+                <a href="https://ez4vad.github.io/hmmh/"><p class="text_h2">HTML CSS JS</p></a>
+                <a href="https://ez4vad.github.io/hmmh/" target="_blank"><p class="text_link">https://github.com/ez4vad/hmmh</p></a>
             </div>
             </div>
         </div>
@@ -170,7 +174,7 @@
                 <div class="br">
                     <img src="./foto/Beetroot Academy Logo.png" alt="" class="sl">
                     <div class="text_wrapper">
-                        <div class="text_left" style="margin-right: 555px;">
+                        <div class="text_left" >
                         <p class="exp_upper">Student</p>
                         <p class="exp_comp">Beetroot Academy</p>
                     </div>
@@ -222,7 +226,7 @@
                 </div>
             </div>
             <div class="skill_wrapper2">
-                <div class="skill_logo">
+                <div class="skill_logo qq">
                     <img src="./foto/des.svg" alt="" class="develop">
                     <p class="develop_text">Design</p>
                 </div>
@@ -238,10 +242,12 @@
     </div>
     <hr class="line">
     <div class="buttons">
-        <a href="form.html"><button class="button2" style="margin-right: 40px;">Contacts</button></a>
+        <a href="form.html"><button class="button2">Contacts</button></a>
         <a href="more.html"><button class="button2">More Projects</button></a>
     </div>
 </main>
 <script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="aside.js"></script>
+
   </body>
 </html>

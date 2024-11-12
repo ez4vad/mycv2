@@ -175,7 +175,7 @@ textarea {
 
 .form {
     width: 350px;
-    height: 480px;
+    height: 500px;
     background: rgba(20, 20, 35, 0.449);
     -webkit-border-radius: 5%;
     -moz-border-radius: 5%;
@@ -262,7 +262,7 @@ textarea {
     color: white;
     width: 294px;
     height: 109px;
-    max-width: 426px;
+    max-width: 294px;
     max-height: 140px;
     margin-bottom: 14px;
     background: rgba(20, 20, 35);

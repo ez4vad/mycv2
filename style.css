@@ -13,6 +13,10 @@ a {
 main {
     background-color: #2E2E48;
 }
+.button2 {
+    margin-right: 40px;
+   }
+@media screen and (min-width: 1224px) {
 aside {
     background: #232339;
     padding: 10px;
@@ -58,6 +62,10 @@ aside {
    .icon {
     width: 34px;
     height: 34px;
+   }
+   .bhor {
+    width: 429px;
+     border-radius: 10px;
    }
    .ss {
     display: flex;
@@ -428,4 +436,1378 @@ aside {
 .info:hover {
     text-shadow: 0 0 10px white;
     
+}
+.b1 {
+    position: fixed;
+    z-index: -1;
+  }
+}
+
+#closeButton {
+    position: fixed;
+    z-index: -1;
+  }
+
+
+
+  .qqs {
+    margin-left: 40px;
+}
+
+
+@media screen and (max-width: 1224px) {
+#sidePanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;       /* Ширина панели */
+    height: 100%;       /* Высота на весь экран */
+    background-color: #232339;
+    color: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%); /* Скрываем панель справа */
+    transition: transform 0.3s ease; /* Анимация появления */
+    z-index: 1000;  
+    overflow: auto;     /* Чтобы панель была поверх других элементов */
+  }
+  
+  /* Видимый стиль панели */
+  #sidePanel.open {
+    transform: translateX(0); /* Панель видима, когда "открыта" */
+  }
+  
+  /* Стиль для кнопок */
+  .b1 {
+    color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+        width: 100px;
+        height: 42px;
+        float: right;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+  }
+  
+  #closeButton {
+    background-color: #232339;
+    color: white;
+    border: none;
+  }
+
+  #sidePanel.open {
+    transform: translateX(0);
+  }
+
+  aside {
+    background: #232339;
+    padding: 10px;
+    width: 300px;
+    float: left;
+    height: 1423px;
+   }
+   .foto {
+    border-radius: 300px;
+    width: 140px;
+    height: 140px;
+    margin-left: 28px;
+   }
+   .name {
+    color: white;
+    font-size: 24px;
+    margin-top: 12px;
+   }
+   .front {
+    background: linear-gradient(45deg, #A478E8 10%, #516CF7 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #A478E8;
+    font-style: outfit;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 24px;
+   }
+   .logo_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+   }
+   .text {
+    color: lightgray;
+    text-align: center;
+    margin-top: 24px;
+   }
+   .hr {
+    margin-top: 24px;
+    border: 0.1px solid gray;
+   }
+   .icon {
+    width: 34px;
+    height: 34px;
+   }
+   .ss {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+   }
+   .upper_text {
+    color: gray;
+    font-size: 14px;
+   }
+   .info {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+   }
+   .info_item {
+    margin-left: 20px;
+   }
+   .upper {
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 45px;
+    font-weight: 200;
+   }
+   .container_wrapper{
+   display: flex;
+   justify-content: center;
+   }
+   main {
+    background-color: #2E2E48;
+   }
+   .bhor {
+    width: 429px;
+     border-radius: 10px;
+   }
+   .main_content {
+    display: flex;
+    justify-content: center;
+   }
+   .container2 {
+    width: 430px;
+    margin-top: 120px;
+    background-color: #232339;
+    height: 350px;
+    border-radius: 10px;
+   }
+   .upper_main {
+    top: 70px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+   }
+   .button {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #232339;
+    border: 1px solid white;
+    cursor: pointer;
+   }
+   .button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   }
+   .info_wrapper {
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .text_h1 {
+    margin-bottom: 10px;
+   }
+   .text_h2 {
+    color: #ACB1C3;
+    margin-bottom: 10px;
+   }
+   .text_link {
+    color: #95AAFB;
+   }
+   .exp {
+    color: white;
+    font-family: outfit;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+   }
+   .sl {
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+   }
+   .exp_wrapper {
+    display: flex;
+    justify-content: space-around;
+   }
+   .sportlounge {
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: #232339;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 0 0;
+
+   }
+   .br {
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: #232339;
+    border-radius: 0 0 20px 20px;
+   }
+   .text_wrapper {
+    display: flex;
+    justify-content: space-between;
+   }
+   .text_left {
+    margin-right: 550px;
+   }
+   .step {
+    width: 500px;
+    height: 500px;
+    margin-left: 55px;
+    position: relative;
+    
+   }
+   .exp_upper {
+        color: #ACB1C3;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 10px;
+   }
+   .exp_comp {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+   }
+   .exp_data {
+    font-size: 14px;
+    color: #D9DFE8;
+    margin-top: 25px;
+   }
+   .exp_address {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #ACB1C3;
+   }
+   .sss {
+    display: flex;
+   }
+   .exp_geo {
+    margin-top: 8px;
+    margin-right: 2px;
+   }
+
+   .skill_wrapper {
+    display: flex;
+    justify-content: center;
+    
+   }
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: #232339;
+    border-radius: 10px 0 0 10px ;
+    margin-left: 160px;
+}
+.skill_info {
+    display: flex;
+    justify-content: center;
+}
+.skill_text {
+    color: #95AAFB;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16px;
+}
+.skill_text2 {
+    color: #95AAFB;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.container_skill2 {
+    width: 150px;
+    height: 100px;
+    background-color: #232339;
+    margin-left: 10px;
+}
+.container3 {
+    width: 150px;
+    height: 100px;
+    background-color: #232339;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.skill_text3 {
+    color: #95AAFB;
+    margin-top: 30px;
+
+}
+.divider {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.container4 {
+    width: 150px;
+    height: 100px;
+    border-radius: 0 10px 10px 0;
+    background-color: #232339;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.skill_text4 {
+    color: #95AAFB;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.skill_text5 {
+    color: #95AAFB;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.divider2 {
+    width: 50px;
+}
+.skill_text6 {
+    color: #95AAFB;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.develop_text {
+    color: white;
+    font-family: outfit;
+    font-size: 16px;
+}
+.develop {
+    width: 48x;
+    height: 48px;
+    margin-top: 20px;
+}
+.qs {
+    color: white;
+    font-family: outfit;
+    font-size: 30px;
+    margin-top: 100px;
+  
+}
+
+.container_des {
+    width: 280px;
+    height: 100px;
+    background-color: #232339;
+    border-radius: 10px 0 0 10px;
+    margin-right: 20px;
+    margin-left: 205px;
+    
+}
+.container_des2 {
+    width: 280px;
+    height: 100px;
+    background-color: #232339;
+    border-radius: 0 10px 10px 0;
+}
+.des_text {
+    color: #C696FC;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 24px;
+}
+.skill_wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.line{
+    margin-top: 80px;
+}
+.buttons {
+    margin-top: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #232339;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.container2:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.button:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.button2:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.sportlounge:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.br:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.container:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.container_skill2:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.container3:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.container4:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.skill_text:hover {
+        color: white;
+}
+.skill_text2:hover {
+    color: white;
+}
+.skill_text3:hover {
+    color: white;
+}
+.skill_text4:hover {
+    color: white;
+}
+.skill_text5:hover {
+    color: white;
+}
+.skill_text6:hover {
+    color: white;
+}
+.container_des:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.container_des2:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+}
+.des_text:hover {
+    color: white;
+}
+.icon:hover {
+    box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+    border: 0.1px solid white;
+    border-radius: 20px;
+}
+.info:hover {
+    text-shadow: 0 0 10px white;
+    
+}
+}
+
+
+
+@media screen and (max-width: 940px) { 
+    #sidePanel {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;       /* Ширина панели */
+        height: 100%;       /* Высота на весь экран */
+        background-color: #232339;
+        color: white;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        transform: translateX(100%); /* Скрываем панель справа */
+        transition: transform 0.3s ease; /* Анимация появления */
+        z-index: 1000;  
+        overflow: auto;     /* Чтобы панель была поверх других элементов */
+      }
+      
+      /* Видимый стиль панели */
+      #sidePanel.open {
+        transform: translateX(0); /* Панель видима, когда "открыта" */
+      }
+      
+      /* Стиль для кнопок */
+      .b1 {
+        color: white;
+            background-color: #232339;
+            border: 1px solid white;
+            cursor: pointer;
+            width: 100px;
+            height: 42px;
+            float: right;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+      }
+      
+      #closeButton {
+        background-color: #232339;
+        color: white;
+        border: none;
+      }
+    
+      #sidePanel.open {
+        transform: translateX(0);
+      }
+    
+      aside {
+        background: #232339;
+        padding: 10px;
+        width: 300px;
+        float: left;
+        height: 1423px;
+       }
+
+
+       .foto {
+        border-radius: 300px;
+        width: 140px;
+        height: 140px;
+        margin-left: 28px;
+       }
+       .name {
+        color: white;
+        font-size: 24px;
+        margin-top: 12px;
+       }
+       .front {
+        background: linear-gradient(45deg, #A478E8 10%, #516CF7 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #A478E8;
+        font-style: outfit;
+        font-size: 16px;
+        margin-top: 8px;
+        margin-left: 24px;
+       }
+       .logo_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+       }
+       .text {
+        color: lightgray;
+        text-align: center;
+        margin-top: 24px;
+       }
+       .hr {
+        margin-top: 24px;
+        border: 0.1px solid gray;
+       }
+       .icon {
+        width: 34px;
+        height: 34px;
+       }
+       .ss {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+       }
+       .upper_text {
+        color: gray;
+        font-size: 14px;
+       }
+       .info {
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+       }
+       .info_item {
+        margin-left: 20px;
+       }
+       .upper {
+        color: white;
+        font-size: 14px;
+        margin-top: 12px;
+        margin-left: 45px;
+        font-weight: 200;
+       }
+       .container_wrapper{
+       display: flex;
+       justify-content: center;
+       }
+       main {
+        background-color: #2E2E48;
+       }
+       .main_content {
+        display: flex;
+        justify-content: center;
+       }
+       .container2 {
+        width: 300px;
+        margin-top: 120px;
+        background-color: #232339;
+        height: 270px;
+        border-radius: 10px;
+       }
+       .bhor {
+        width: 300px;
+        border-radius: 10px;
+       }
+       .upper_main {
+        top: 70px;
+        position: absolute;
+        color: white;
+        font-size: 32px;
+       }
+       .button {
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+       }
+       .button_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+       }
+       .info_wrapper {
+        margin-left: 20px;
+        margin-top: 10px;
+       }
+       .text_h1 {
+        margin-bottom: 10px;
+       }
+       .text_h2 {
+        color: #ACB1C3;
+        margin-bottom: 10px;
+       }
+       .text_link {
+        color: #95AAFB;
+       }
+       .exp_content {
+        width: 650px;
+       }
+       .sportlounge {
+        width: 650px;
+       }
+       .br {
+        width: 650px;
+       }
+       .text_wrapper {
+        display: flex;
+        justify-content: space-around;
+       }
+       .text_left {
+        margin-right: 320px;
+       }
+       
+       
+       
+       
+       .step {
+        width: 500px;
+        height: 500px;
+        margin-left: 55px;
+        position: relative;
+        
+       }
+      
+      
+      
+       
+    
+       .skill_wrapper {
+        display: flex;
+        justify-content: center;
+        
+       }
+    
+    .skill_info {
+        display: flex;
+        justify-content: center;
+    }
+    .skill_text {
+        color: #95AAFB;
+        text-align: center;
+        
+        font-size: 14px;
+    }
+    .skill_text2 {
+        color: #95AAFB;
+        
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .container_skill2 {
+        width: 100px;
+        height: 100px;
+        background-color: #232339;
+        margin-left: 10px;
+    }
+    .container3 {
+        width: 100px;
+        height: 100px;
+        background-color: #232339;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .skill_text3 {
+        color: #95AAFB;
+        margin-top: 30px;
+    
+    }
+    .divider {
+        height: 90px;
+        padding-top: 10px;
+    }
+    
+    .container4 {
+        width: 100px;
+        height: 100px;
+        border-radius: 0 10px 10px 0;
+        background-color: #232339;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .skill_text4 {
+        color: #95AAFB;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .skill_text5 {
+        color: #95AAFB;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+    .divider2 {
+        width: 40px;
+    }
+    .skill_text6 {
+        color: #95AAFB;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .develop_text {
+        color: white;
+        font-family: outfit;
+        font-size: 16px;
+    }
+    .develop {
+        width: 48x;
+        height: 48px;
+        margin-top: 20px;
+    }
+    .qs {
+        color: white;
+        font-family: outfit;
+        font-size: 30px;
+        margin-top: 100px;
+      
+    }
+    
+    .container_des {
+        width: 280px;
+        height: 100px;
+        background-color: #232339;
+        border-radius: 10px 0 0 10px;
+        margin-right: 20px;
+        margin-left: 158px;
+        
+    }
+    .container_des2 {
+        width: 280px;
+        height: 100px;
+        background-color: #232339;
+        border-radius: 0 10px 10px 0;
+    }
+    .des_text {
+        color: #C696FC;
+        text-align: center;
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    .skill_wrapper2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .line{
+        margin-top: 80px;
+    }
+    .buttons {
+        margin-top: 40px;
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .button2 {
+        width: 200px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    .container2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .button:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .button2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .sportlounge:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .br:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container_skill2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container3:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container4:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .skill_text:hover {
+            color: white;
+    }
+    .skill_text2:hover {
+        color: white;
+    }
+    .skill_text3:hover {
+        color: white;
+    }
+    .skill_text4:hover {
+        color: white;
+    }
+    .skill_text5:hover {
+        color: white;
+    }
+    .skill_text6:hover {
+        color: white;
+    }
+    .container_des:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container_des2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .des_text:hover {
+        color: white;
+    }
+    .icon:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+        border-radius: 20px;
+    }
+    .info:hover {
+        text-shadow: 0 0 10px white;
+        
+    }
+
+    .skill_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .skill_info  {
+        width: 540px;
+    }
+    .qq {
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 669px) { 
+
+
+
+    #sidePanel {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;       /* Ширина панели */
+        height: 100%;       /* Высота на весь экран */
+        background-color: #232339;
+        color: white;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        transform: translateX(100%); /* Скрываем панель справа */
+        transition: transform 0.3s ease; /* Анимация появления */
+        z-index: 1000;  
+        overflow: auto;     /* Чтобы панель была поверх других элементов */
+      }
+      
+      /* Видимый стиль панели */
+      #sidePanel.open {
+        transform: translateX(0); /* Панель видима, когда "открыта" */
+      }
+      
+      /* Стиль для кнопок */
+      .b1 {
+        color: white;
+            background-color: #232339;
+            border: 1px solid white;
+            cursor: pointer;
+            width: 100px;
+            height: 42px;
+            float: right;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+      }
+      
+      #closeButton {
+        background-color: #232339;
+        color: white;
+        border: none;
+      }
+    
+      #sidePanel.open {
+        transform: translateX(0);
+      }
+    
+      aside {
+        background: #232339;
+        padding: 10px;
+        width: 300px;
+        float: left;
+        height: 1423px;
+       }
+
+
+
+       
+
+       .foto {
+        border-radius: 300px;
+        width: 140px;
+        height: 140px;
+        margin-left: 28px;
+       }
+       .name {
+        color: white;
+        font-size: 24px;
+        margin-top: 12px;
+       }
+       .front {
+        background: linear-gradient(45deg, #A478E8 10%, #516CF7 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #A478E8;
+        font-style: outfit;
+        font-size: 16px;
+        margin-top: 8px;
+        margin-left: 24px;
+       }
+       .logo_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+       }
+       .text {
+        color: lightgray;
+        text-align: center;
+        margin-top: 24px;
+       }
+       .hr {
+        margin-top: 24px;
+        border: 0.1px solid gray;
+       }
+       .icon {
+        width: 34px;
+        height: 34px;
+       }
+       .ss {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+       }
+       .upper_text {
+        color: gray;
+        font-size: 14px;
+       }
+       .info {
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+       }
+       .info_item {
+        margin-left: 20px;
+       }
+       .upper {
+        color: white;
+        font-size: 14px;
+        margin-top: 12px;
+        margin-left: 45px;
+        font-weight: 200;
+       }
+       .container_wrapper{
+       display: flex;
+       justify-content: center;
+       }
+
+
+
+
+       
+       main {
+        background-color: #2E2E48;
+       }
+       .main_content {
+        display: block;
+       }
+       .container2 {
+        width: 300px;
+        margin-top: 120px;
+        background-color: #232339;
+        height: 270px;
+        border-radius: 10px;
+       }
+       .qqs {
+        margin-left: 0;
+        margin-top: 40px;
+        height: 342px;
+       }
+       .bhor {
+        width: 300px;
+        border-radius: 10px;
+       }
+       .upper_main {
+        top: 70px;
+        position: absolute;
+        color: white;
+        font-size: 32px;
+       }
+       .button {
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+       }
+       .button_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+       }
+       .info_wrapper {
+        margin-left: 20px;
+        margin-top: 10px;
+       }
+       .text_h1 {
+        margin-bottom: 10px;
+       }
+       .text_h2 {
+        color: #ACB1C3;
+        margin-bottom: 10px;
+       }
+       .text_link {
+        color: #95AAFB;
+       }
+       .exp_content {
+        width: 300px;
+       }
+       .sportlounge {
+        width: 300px;
+       }
+       .br {
+        width: 300px;
+       }
+       .text_wrapper {
+        display: flex;
+        justify-content: space-around;
+       }
+       .text_left {
+        margin-right: 20px;
+       }
+       
+
+
+
+       
+       
+       
+       .step {
+        width: 500px;
+        height: 500px;
+        margin-left: 55px;
+        position: relative;
+        
+       }
+      
+      
+      
+       
+    .skills {
+       max-width: 250px; 
+      
+    }
+       .skill_wrapper {
+        display: flex;
+        justify-content: center;
+        
+       }
+    
+    .skill_info {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    .skill_text {
+        color: #95AAFB;
+        text-align: center;
+        font-size: 8px;
+        margin-top: -10px;
+    }
+    .skill_text2 {
+        color: #95AAFB;
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    .container {
+        width: 50px;
+        height: 80px;
+        
+    }
+    .container_skill2 {
+        width: 50px;
+        height: 80px;
+        background-color: #232339;
+        margin-left: 10px;
+    }
+    .container3 {
+        width: 50px;
+        height: 80px;
+        background-color: #232339;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .skill_text3 {
+        color: #95AAFB;
+        margin-top: 30px;
+        font-size: 10px;
+    
+    }
+    .divider {
+        height: 70px;
+        padding-top: 10px;
+    }
+    
+    .container4 {
+        width: 80px;
+        height: 80px;
+        border-radius: 0 10px 10px 0;
+        background-color: #232339;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .skill_text4 {
+        color: #95AAFB;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .skill_text5 {
+        color: #95AAFB;
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+    .divider2 {
+        width: 30px;
+        margin-bottom: 5px;
+    }
+    .skill_text6 {
+        color: #95AAFB;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .develop_text {
+        color: white;
+        font-family: outfit;
+        font-size: 16px;
+    }
+    .develop {
+        width: 48x;
+        height: 48px;
+        margin-top: 20px;
+    }
+    .qs {
+        color: white;
+        font-family: outfit;
+        font-size: 30px;
+        margin-top: 100px;
+      
+    }
+    
+    .container_des {
+        width: 80px;
+        height: 100px;
+        background-color: #232339;
+        border-radius: 10px 0 0 10px;
+        margin-right: 20px;
+        margin-left: 1px;
+        
+    }
+    .container_des2 {
+        width: 80px;
+        height: 100px;
+        background-color: #232339;
+        border-radius: 0 10px 10px 0;
+    }
+    .des_text {
+        color: #C696FC;
+        text-align: center;
+        margin-top: 35px;
+        font-size: 16px;
+    }
+    .skill_wrapper2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .line{
+        margin-top: 80px;
+    }
+    .buttons {
+        margin-top: 40px;
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .button2 {
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+        margin-right: 0;
+    }
+    .container2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .button:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .button2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .sportlounge:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .br:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container_skill2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container3:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container4:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .skill_text:hover {
+            color: white;
+    }
+    .skill_text2:hover {
+        color: white;
+    }
+    .skill_text3:hover {
+        color: white;
+    }
+    .skill_text4:hover {
+        color: white;
+    }
+    .skill_text5:hover {
+        color: white;
+    }
+    .skill_text6:hover {
+        color: white;
+    }
+    .container_des:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .container_des2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .des_text:hover {
+        color: white;
+    }
+    .icon:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+        border-radius: 20px;
+    }
+    .info:hover {
+        text-shadow: 0 0 10px white;
+        
+    }
+
+    .skill_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+   
+    .qq {
+        margin-right: 50px;
+    }
+
+
+
+
+
 }
