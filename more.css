@@ -14,6 +14,33 @@ body {
     margin-top: 20px;
  }
 
+.container_image1 {
+    width: 429px;
+     border-radius: 10px;
+}
+.container_image2 {
+    width: 430px;
+     border-radius: 10px;
+}
+.container_image3 {
+    width: 429px;
+     height: 242px;
+      border-radius: 10px;
+}
+.container_image4 {
+    width: 430px;
+     height: 242px;
+      border-radius: 10px;
+}
+.container_image5 {
+    width: 429px;
+     height: 242px;
+      border-radius: 10px;
+}
+
+
+
+ @media screen and (min-width: 1024px) {
 
 .main_content {
     display: flex;
@@ -40,7 +67,17 @@ body {
     background-color: #232339;
     border: 1px solid white;
     cursor: pointer;
-    margin-right: ;
+
+
+}
+.button2 {
+    margin-right: 50px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #232339;
+    border: 1px solid white;
+    cursor: pointer;
 }
 .button:hover {
     box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
@@ -65,4 +102,101 @@ body {
     box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
     border: 0.1px solid white;
 }
-.logo
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+   .main_content {
+    width: 320px;
+   }
+    .container2 {
+        background: #232339;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        border-radius: 3%;
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        margin-top: 40px;
+        width: 320px;
+    }
+    .button_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .container_image1 {
+        width: 320px;
+         border-radius: 10px;
+    }
+    .container_image2 {
+        width: 320px;
+         border-radius: 10px;
+    }
+    .container_image3 {
+        width: 320px;
+         height: 242px;
+          border-radius: 10px;
+    }
+    .container_image4 {
+        width: 320px;
+         height: 242px;
+          border-radius: 10px;
+    }
+    .container_image5 {
+        width: 320px;
+         height: 242px;
+          border-radius: 10px;
+    }
+
+    .button {
+        width: 160px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    .button2 {
+        width: 160px;
+        height: 50px;
+        color: white;
+        background-color: #232339;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    .button:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .button2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+    .text_h1 {
+        color: white;
+        font-family: outfit;
+        text-align: center;
+    }
+    .text_h2 {
+        color: white;
+        font-family: outfit;
+        text-align: center;
+    }
+    .text_link {
+        color: white;
+        font-family: outfit;
+        text-align: center;
+    }
+    .container2:hover {
+        box-shadow: 1px 1px 60px 1px rgba(255, 255, 255, 0.124);
+        border: 0.1px solid white;
+    }
+
+    .resp {
+        display: flex;
+        justify-content: center;
+    }
+}
